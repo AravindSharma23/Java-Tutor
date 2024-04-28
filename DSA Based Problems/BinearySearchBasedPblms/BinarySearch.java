@@ -1,7 +1,7 @@
 
 // Binary search :
 /*
-Assume its a sorted array.
+Assume its a sorted array in Ascending order.
 steps : 
 1. Find mid element 
 2. If target > mid -> start = mid+1;
