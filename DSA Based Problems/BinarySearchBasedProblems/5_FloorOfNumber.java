@@ -1,5 +1,5 @@
 // As a same as binary search 
-// largest number that is less than or equal to target.
+// Greatest number that is less than or equal to target.
 import java.util.*;
 
 public class Main
