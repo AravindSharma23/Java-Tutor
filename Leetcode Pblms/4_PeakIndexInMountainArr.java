@@ -1,5 +1,5 @@
 // Problem no: 852 - Medium  -> Peak Index in mountain Array 
-
+// problem no: 162  -Medium - >  Find peak element  same solution for both problems
 
 class Solution {
     public int peakIndexInMountainArray(int[] arr) { 
