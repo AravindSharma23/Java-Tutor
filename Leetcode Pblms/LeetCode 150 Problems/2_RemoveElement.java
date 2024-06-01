@@ -1,6 +1,6 @@
 // problem no -> 27 -> Easy
 // Remove Element
-
+// nums = [3,2,2,3], val = 3
 class Solution {
     public int removeElement(int[] nums, int val) {
         int count = 0;
