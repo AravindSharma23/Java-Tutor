@@ -1,5 +1,5 @@
-// Leetcode -> 744 -> Easy 
-//Peak Index in a Mountain Array 
+// Leetcode -> 852 -> Easy 
+//Peak Index in a Mountain Array or 162. Find Peak Element - medium // 
 
 import java.util.*;
 
