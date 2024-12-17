@@ -1,3 +1,10 @@
+//Bubble sort 
+/* 
+
+* In bubble sort , it has n pass to sort an unsorted array.
+* In  1st pass  we get a largest number and each pass we get other largest numbers that is minimum of largest number .
+* And finally got a sorted array.
+*/
 import java.util.*;
 public class Main
 {
@@ -8,7 +15,7 @@ public class Main
 	    System.out.println("arr is "+Arrays.toString(arr));
 	}
 	static void bubbleSort(int[] arr){
-	    	    boolean swapped;
+	     boolean swapped;
 
 	    for(int i=0;i<arr.length;i++){
 	        swapped = false;
@@ -21,7 +28,7 @@ public class Main
 	         }
 	         
 	     } 
-	     if(!swapped){
+	     if(!swapped){ // To break this inner 'for' loop bcz that given is sorted array and prevent unwanted iteration.
 	         break;
 	     }
 	     
