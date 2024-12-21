@@ -3,7 +3,7 @@
 
 * In bubble sort , it has n pass to sort an unsorted array.
 * In  1st pass  we get a largest number and each pass we get other largest numbers that is minimum of largest number .
-* And finally got a sorted array.
+* And finally got a sorted array. 
 */
 import java.util.*;
 public class Main
