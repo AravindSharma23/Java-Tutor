@@ -1,7 +1,7 @@
 /* 
 Selection sort :
 1. Find max element in array.
-2. Place it in correct position.
+2. Place it in correct position. 
 */
 
 import java.util.*;
