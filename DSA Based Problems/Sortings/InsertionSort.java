@@ -1,7 +1,7 @@
 /*
 Insertion sort :
   -> It works good in partially sorted array(Hybrid array).
-  -> stable
+  -> stable 
   
 */
 
