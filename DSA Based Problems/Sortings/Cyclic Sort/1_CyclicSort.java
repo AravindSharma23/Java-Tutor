@@ -1,6 +1,9 @@
 /*
 Cyclic sort :
  -> Ranges from 1 to N use cyclic sort.
+ Note :
+  -> If ranges from 0 to N -> index = value.
+  -> If ranges from 1 to N -> index = value-1.
  
 */
 
