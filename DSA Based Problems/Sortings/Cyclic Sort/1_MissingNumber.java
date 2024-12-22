@@ -1,6 +1,6 @@
 /*
 
-Leetcode -> 268 -> Easy - Amazon question.
+ Missing Number -> Leetcode -> 268 -> Easy - Amazon question.
 */
 
 import java.util.*;
