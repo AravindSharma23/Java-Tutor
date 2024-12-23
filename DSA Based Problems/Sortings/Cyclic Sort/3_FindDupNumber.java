@@ -1,5 +1,5 @@
 /*
-Find Duplicate Number -> 287 - leetcode - >Aslked in  Amazon. -> Easy
+Find Duplicate Number -> 287 - leetcode - >Aslked in  Amazon. -> Medium
 
 */
 
