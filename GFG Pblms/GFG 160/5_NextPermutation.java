@@ -1,5 +1,13 @@
 // Next Permutation - Medium -> Asked in - Infosys , Flipkart , Amazon , Microsoft , FactSetHike , MakeMyTrip , Google , Qualcomm , Salesforce
+/* 
+Refer gfg article
+step 1 - find pivot 
+step2 - If pivot is -1 means then reverse the arr.
+step3 - swap arr from end before pivot element.
+step4 - finally reverse it to get result arr
 
+
+*/
 class Solution {
     void nextPermutation(int[] arr) {
         // code here
