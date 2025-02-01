@@ -57,6 +57,7 @@ public class Main
 		if(count2 > nums.length/3){
 		    res.add(num2);
 		}
+		Collections.sort(res);
 		System.out.println(res);
 	}
 }
