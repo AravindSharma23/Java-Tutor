@@ -1,4 +1,4 @@
-// Majority Element II -> MEDIUM / leetcode - > FAANG 
+// Majority Element II -> MEDIUM / leetcode  229 - > FAANG 
 
 /*
 According to  Boyer-Moore’s Voting Algorithm
