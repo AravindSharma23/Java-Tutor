@@ -1,4 +1,4 @@
-//Leetcode pblm -> 88 -> Medium 
+//Leetcode pblm -> 34 -> Medium 
 //First and last position of element in sorted element in sorted array.
 
 
