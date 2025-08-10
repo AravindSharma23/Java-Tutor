@@ -44,7 +44,7 @@ public class Main
             }
             k++;
         }
-        
+        // We can add remaining elements if exist in first or second array.
         while(i<first.length){
             mix[k] = first[i];
             i++;
