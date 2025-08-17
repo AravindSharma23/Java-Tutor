@@ -33,3 +33,34 @@ class Solution {
         return head;
     }
 }
+
+// Rotate a linkedlist in right side : 
+class Solution {
+    public Node rotate(Node head, int k) {
+        // add code here
+        if(head == null || head.next == null || k<0){
+            return head;
+        }
+       Node current = head;
+       int count=0;
+       Node end=null;
+       while(current!=null){
+           if(current.next==null){
+               end=current;
+           }
+           count++;
+           current=current.next;
+       }
+       k=k%count;
+       while(k>0){
+           end.next=head;
+           end=end.next;
+           head=end.next;
+           end.next=null;
+           k--;
+       }
+       
+       
+       return head;
+    }
+}
