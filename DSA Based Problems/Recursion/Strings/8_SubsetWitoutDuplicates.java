@@ -22,7 +22,7 @@ public class Main
 	    for(int i = 0;i<arr.length;i++){
 	        start = 0;
 	        if( i>0 && arr[i] == arr[i-1]){
-	            start = end+1;
+	            start = end+1; // avoiding list from beginning of outer to avoid duplicates .
 	        }
 	        end = outer.size()-1;
 	        int n = outer.size();
