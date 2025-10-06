@@ -1,0 +1,22 @@
+//  printing paths 
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	   path("",3,3);
+	}
+	static void path(String p,int r , int c){
+	    if(r == 1 && c == 1){ // if r and c are equal to 1 means we reached that end
+	       System.out.println(p);
+	        return ;
+	    }
+	    
+	    if(r>1){
+	        path(p+"D", r-1 , c);
+	    }
+	    if(c>1){
+	        path(p+"R" , r , c-1);
+	    }
+        
+	}
+}
