@@ -1,0 +1,17 @@
+//  count of the path - FAANG
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println(count(3,3));
+	}
+	static int count(int r , int c){
+	    if(r == 1 || c == 1){
+	        return 1;
+	    }
+        int left = count(r-1,c) ; 
+        int right = count(r,c-1);
+        System.out.println(left + " "+right);
+        return left + right;
+	}
+}
