@@ -1,5 +1,13 @@
 
 // multilevel Inheritance
+/*
+   A
+   ⬆️
+   ️B
+   ⬆️
+   C
+
+*/
 class GrandFather{
     public void land(){
         System.out.println("Have a land ");
