@@ -11,3 +11,9 @@ public class Main
 	System.out.println(s);
 	}
 }
+
+// sb.append("WorldWideWeb");
+// 	sb.insert(1,"olf");
+// 	sb.replace(1,5,"ABC");
+// 	sb.delete(1,5);
+// 	System.out.println(sb);
