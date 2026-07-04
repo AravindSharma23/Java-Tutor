@@ -1,0 +1,13 @@
+
+Stack : ->  Stack<Integer> st = new Stack<>()
+Stack Methods :
+       push(e) - add ele to top - O(1)
+       pop() -  Removes and returns the top element - O(1)
+       peek() -  Returns the top element  - O(1)
+       empty() - Returns true id stack is empty - O(1)
+       search(Obj e) - Returns 1-based position from the top - O(n)
+       size() - Returns number of elements - O(1)
+       contains(Obj e) - Checks if ele exists - O(n)
+       clear() - Remove all elements - O(n)
+       isEmpty() - same as empty() - O(1)
+
