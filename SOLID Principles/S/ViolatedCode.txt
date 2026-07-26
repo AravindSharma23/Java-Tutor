@@ -1,0 +1,29 @@
+// Single Responsibility :
+// A class should have only one reason to change (meaning should have only one Job or responsibility).
+
+//Here inside the employee class we have two responsibilities like calculate salary ,generate method so its invalid.
+
+class Employee{
+    private double salary;
+    private String name;
+    public Employee(String name,double salary){
+        this.name = name;
+        this.salary = salary;
+        
+    }
+    public double calculateSalary(){
+        return salary*1.2;
+    }
+    public void generateReport(){
+        System.out.println("Generating report");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Employee emp = new Employee("Aravind",2500);
+		System.out.println(emp.calculateSalary());
+		
+	emp.generateReport();
+	}
+}
