@@ -1,0 +1,48 @@
+// Follows Single Responsibility :
+
+// Each class having single responsibility
+class Employee{
+    private double salary;
+    private String name;
+    public Employee(String name,double salary){
+        this.name = name;
+        this.salary = salary;
+        
+    }
+    public String getName(){
+        return name;
+    }
+    public double getSalary(){
+        return salary;
+    }
+   
+    
+}
+class CalculateSalary{
+     public double increment(Employee employee){
+        return employee.getSalary()*1.2;
+    }
+}
+class GenerateReport{
+    public void display(Employee employee){
+        System.out.println("Generating report "+ employee.getName());
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Employee emp = new Employee("Aravind",2500);
+		
+	    CalculateSalary income = new CalculateSalary();
+	    
+	    GenerateReport report = new GenerateReport();
+	    
+	    System.out.println("Name: " + emp.getName());
+
+        System.out.println("Salary: " + emp.getSalary());
+
+        System.out.println("Incremented Salary: " + income.increment(emp));
+
+        report.display(emp);
+	}
+}
