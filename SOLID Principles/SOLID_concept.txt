@@ -1,7 +1,7 @@
 
 SOLID Principles :
   S - Single Responsible Principle'
-  O - 
-  L -
+  O - Open/Closed Principle
+  L - Liskov Substution Principle
   I - 
   D -  
