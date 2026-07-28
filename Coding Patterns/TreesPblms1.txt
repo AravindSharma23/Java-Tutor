@@ -1,0 +1,22 @@
+That’s 90% of tree interview questions.
+
+1. Binary Tree Inorder Traversal - https://lnkd.in/dyEziQnT
+2. Binary Tree Preorder Traversal - https://lnkd.in/dpiQs9ux
+3. Binary Tree Postorder Traversal - https://lnkd.in/d4WUytWP
+4. Binary Tree Level Order Traversal - https://lnkd.in/dU-8-5DR
+5. Maximum Depth of Binary Tree - https://lnkd.in/dDT8E6md
+6. Minimum Depth of Binary Tree - https://lnkd.in/dDWC4Ec2
+7. Same Tree - https://lnkd.in/dBRNaFjR
+8. Symmetric Tree - https://lnkd.in/d2kWGw4n
+9. Invert Binary Tree - https://lnkd.in/dsnjbYj5
+10. Subtree of Another Tree - https://lnkd.in/dSRm77DA 
+11. Balanced Binary Tree - https://lnkd.in/d5FE5fgW 
+12. Validate Binary Search Tree - https://lnkd.in/dthgZmSe 
+13. Search in a BST - https://lnkd.in/d-hKq3uB
+14. Insert into a BST - https://lnkd.in/dq4ka9Zr
+15. Delete Node in a BST - https://lnkd.in/dFBQgYXS
+16. Minimum Absolute Difference in BST - https://lnkd.in/dNwH-KjD
+17. Minimum Distance Between BST Nodes - https://lnkd.in/d2pP9eti
+18. Range Sum of BST - https://lnkd.in/dPQ_Qi2q
+19. Two Sum IV – Input is a BST - https://lnkd.in/dsDPJBD3
+20. Lowest Common Ancestor of a BST - https://lnkd.in/d9BHRfvZ
