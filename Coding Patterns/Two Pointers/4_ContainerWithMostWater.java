@@ -1,4 +1,4 @@
-// 11. Container With Most Water - leetcode - medium
+// 11. Container With Most Water - leetcode - medium -imp
 
 class Solution {
     public int maxArea(int[] height) {
@@ -7,7 +7,7 @@ class Solution {
         int maxiArea = 0;
 
         while(left<right){   // (right-left) - to find breath
-            int area = Math.min(height[left],height[right]) * (right-left);
+            int area = Math.min(height[left],height[right]) * (right-left); // Math.min(height[left],height[right]) - finding shorter wall to avoid overflow or water leakage
             maxiArea = Math.max(maxiArea,area);
             if(height[left] < height[right]){
                 left++;
