@@ -6,5 +6,5 @@
 | 3 | **Reverse String**                      | LeetCode 344 | Easy       | ⭐⭐⭐⭐     |  - done
 | 4 | **Remove Duplicates from Sorted Array** | LeetCode 26  | Easy       | ⭐⭐⭐⭐⭐    | - done
 | 5 | **Move Zeroes**                         | LeetCode 283 | Easy       | ⭐⭐⭐⭐⭐    | - done
-| 6 | **Merge Sorted Array**                  | LeetCode 88  | Easy       | ⭐⭐⭐⭐     |  - inprogress
+| 6 | **Merge Sorted Array**                  | LeetCode 88  | Easy       | ⭐⭐⭐⭐     |  - done
 | 7 | **Squares of a Sorted Array**           | LeetCode 977 | Easy       | ⭐⭐⭐⭐⭐    |
