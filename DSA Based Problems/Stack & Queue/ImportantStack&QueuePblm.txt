@@ -1,0 +1,8 @@
+
+Valid paranthesis - leetcode 20 - easy - Stack (Matching)
+Min Stack - leetcode 155 - medium - Design(Stack + Min)
+Evaluvate reversse Polish Notion - leetcode 150 - Medium - Stack(Expression evaluvation)
+Generate paranthesis - leetcode 22 - Medium - Backtracking+ stack
+Daily Temperatures - leetcode 739 - Medium - Monotonic Stack
+Car fleet - leetcode 853 - Stack(Monotonic)
+Largest Rectangle Histogram - leetcode 84 - Hard =- Monotonic Stack
