@@ -45,3 +45,24 @@ class Codechef
 	}
     
 }
+//Simplified Version :
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{   //Next Greater   
+		int[] arr = {4, 5, 2, 10, 8};
+		int[] res = new int[arr.length];
+		Stack<Integer> stack = new Stack<>();
+		for(int i = arr.length-1;i>=0;i--){
+		    
+		    while(!stack.isEmpty() && stack.peek() <= arr[i]){ // removing ele that is smaller than curr ele for maintaining Greater ele only in stack
+		        stack.pop();
+		    }
+		    res[i] = stack.isEmpty() ? -1 : stack.peek();
+		    stack.push(arr[i]);
+		    
+		}
+        System.out.println(Arrays.toString(res));
+
+	}
+}
