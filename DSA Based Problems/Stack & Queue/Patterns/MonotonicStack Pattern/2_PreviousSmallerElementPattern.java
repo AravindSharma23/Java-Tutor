@@ -7,21 +7,18 @@ import java.io.*;
 class Codechef
 {
 	public static void main (String[] args) throws java.lang.Exception
-	{
-	    int[] arr = {5,7,9,6,7,4,5,1,3,7};
-	    int size = arr.length;
-        Stack<Integer> stack = new Stack<>();
-	    int[] res = new int[size];
-        for(int i = 0;i<size;i++){
-            int curr = arr[i];
-            while(!stack.isEmpty() && curr <= stack.peek()){
-                stack.pop();
-            }
-            res[i] = stack.isEmpty() ? -1 : stack.peek(); 
-            stack.push(arr[i]);
-
-        }
-        System.out.println(Arrays.toString(res));
+	{  // Left       <---     Right
+	   int[] arr = {4, 5, 2, 10, 8}; 
+		int[] res = new int[arr.length];
+		Stack<Integer> stack = new Stack<>();
+		for(int i = arr.length-1;i>=0;i--){
+		    while(!stack.isEmpty() && stack.peek() >= arr[i]){ // maintaing only smaller ele in a stack , so pop ele  that is greater val than current ele in stack
+		        stack.pop();
+		    }
+		    res[i] = stack.isEmpty() ? -1 : stack.peek();
+		    stack.push(arr[i]);
+		}
+		System.out.println(Arrays.toString(res));
 		
 	}
     
