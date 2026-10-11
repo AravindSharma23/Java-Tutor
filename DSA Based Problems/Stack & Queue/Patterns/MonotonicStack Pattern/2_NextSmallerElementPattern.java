@@ -1,4 +1,4 @@
-// previous Smaller Element 
+// Next Smaller Element 
 
 import java.util.*;
 import java.lang.*;
