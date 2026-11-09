@@ -27,14 +27,14 @@ public class Main
 	    }
 	    int s = low;
 	    int e = high;
-	    int pivot = s+(e-s)/2;
+	    int pivot = arr[s+(e-s)/2];
 	    while(s<=e){
 	       // No need to sort it bcz its sorted so increment s and decrement e . 
-	        while(arr[s]<arr[pivot]){
+	        while(arr[s]<pivot){
 	            s++;
 	        }
 	        
-	        while(arr[e]>arr[pivot]){
+	        while(arr[e]>pivot){
 	            e--;
 	        }
 	        // If it violate rule means swap it with s and e.
